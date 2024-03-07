@@ -1,0 +1,9 @@
+name: b1-msft-nosecret
+setupTasks:
+  - task: write-text-tofile
+    inputs:
+      stringParam: "b1-msft-nosecret.yaml"
+      boolParam: true
+      numParam: 1
+      location: "C:\\test\\yamlname"
+
